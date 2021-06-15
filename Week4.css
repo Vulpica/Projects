@@ -1,0 +1,115 @@
+body {
+  background: url("../Photos/bg7.jpg") no-repeat center;
+  background-size: 100% 100%;
+  display: block;
+  color: white;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 5%;
+  font-size: 2.8em;
+  padding: 5px 0;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+p1 {
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.banner {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  background: content-box radial-gradient(#B4A5A5, #000000);
+}
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.mainmenuButton {
+  text-align: center;
+  width: 100%;
+}
+
+.menu {
+  margin-top: 20px;
+  margin-left: 5%;
+  table-layout: auto;
+  width: 90%;
+}
+
+.border {
+  border-color: white;
+  border-style: groove;
+  border-radius: 20px;
+}
+
+.weekdaysborder {
+  border-color: #ffa260;
+  border-style: double;
+  font-size: 20;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+}
+
+
+.Week4:hover,
+.Week4:focus {
+  box-shadow: 0 1em 1em -0.6em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.Week4 {
+  --color: white;
+  --hover: #F0C929;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: 50%;
+  border-radius: 100%;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}
